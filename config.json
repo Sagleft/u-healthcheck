@@ -1,0 +1,13 @@
+{
+    "utopia": {
+        "protocol": "http",
+        "token": "",
+        "host": "127.0.0.1",
+        "port": 22457,
+        "wsport": 25000
+    },
+    "serviceName": "startopia",
+    "alsoRebotService": "mybot",
+    "sleepTimeoutSeconds": 300,
+    "waitAfterRebootSeconds": 40
+}
