@@ -34,8 +34,9 @@ type config struct {
 func runHealthchecks(cfg config) {
 	for {
 		if isProblemDetected(cfg.Utopia) {
+			log.Println("failed to check Utopia connection. trying reboot..")
 			if err := doReboot(cfg); err != nil {
-				log.Printf("failed to reboot %s: %s", cfg.ServiceName, err.Error())
+				log.Println(err)
 			}
 		}
 		time.Sleep(time.Duration(cfg.SleepTimeoutSeconds) * time.Second)
@@ -64,11 +65,17 @@ func doReboot(cfg config) error {
 	}
 
 	if cfg.WaitAfterRebootSeconds > 0 {
+		log.Printf("wait %v seconds..", cfg.WaitAfterRebootSeconds)
+		log.Println()
+
 		time.Sleep(time.Duration(cfg.WaitAfterRebootSeconds) * time.Second)
 	}
 
 	// reboot another service
 	if cfg.AlsoRebootService != "" {
+		log.Printf("reboot %s..", cfg.AlsoRebootService)
+		log.Println()
+
 		if err := rebootService(cfg.AlsoRebootService); err != nil {
 			return err
 		}
