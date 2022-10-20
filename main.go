@@ -44,7 +44,7 @@ func runHealthchecks(cfg config) {
 }
 
 func isProblemDetected(u utopiago.UtopiaClient) bool {
-	if _, err := u.GetSystemInfo(); err != nil {
+	if _, err := u.GetContacts(""); err != nil {
 		return true
 	}
 	return false

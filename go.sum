@@ -1,11 +1,11 @@
 github.com/Sagleft/swiss-knife v1.1.0 h1:U/rc3psQ3WxuwIW3mlVKV3dmGM4cFvToKRS/xD/q/eI=
 github.com/Sagleft/swiss-knife v1.1.0/go.mod h1:qPlA/Y53sIYAyJI+E3StPw3vNSy9rzxAeh03oemFM9g=
-github.com/Sagleft/utopialib-go v1.7.0 h1:uBICJ0Sgn55B45xltStHtl79u4K5LOGMi64vxOSINug=
-github.com/Sagleft/utopialib-go v1.7.0/go.mod h1:q7vYYHmin43t5xiXhbZqjRlCOYBVi5DqVSaM9+Fo9u0=
+github.com/Sagleft/utopialib-go v1.9.1 h1:hig7iad3iSgoprdeVM4dta54tJ/nWf9vCyE0cbhvsI4=
+github.com/Sagleft/utopialib-go v1.9.1/go.mod h1:ala7jySyCbV4aWuC5XtVpdh9EUVowUzlHWj/YYjzREM=
 github.com/ctengiz/evtwebsocket v0.0.0-20180717104640-fc3583982591 h1:I+6x3CO8LDrWNe6r6L9y3n3dYXGcKO9BKhJ/dVUYcwc=
 github.com/ctengiz/evtwebsocket v0.0.0-20180717104640-fc3583982591/go.mod h1:lpk0rZYe7Oil/0fxAXpasQr7TGtHLSoFIYvk7QnpNEM=
-github.com/sagleft/simple-cron v1.4.1 h1:k95Z8Gxb6BB7X7a4byEbI38mFEI5hYC3lUstCS5ktkg=
-github.com/sagleft/simple-cron v1.4.1/go.mod h1:a++6/wI1ZzgYe+lCAKlWBwR8xBYpPl1oXJpa5rUHlJI=
+github.com/sagleft/simple-cron v1.5.0 h1:ecLM1ScefaNN9MPz//CQnW0569zQGQSusFV6EyTqgAk=
+github.com/sagleft/simple-cron v1.5.0/go.mod h1:a++6/wI1ZzgYe+lCAKlWBwR8xBYpPl1oXJpa5rUHlJI=
 golang.org/x/net v0.0.0-20220526153639-5463443f8c37 h1:lUkvobShwKsOesNfWWlCS5q7fnbG1MEliIzwu886fn8=
 golang.org/x/net v0.0.0-20220526153639-5463443f8c37/go.mod h1:XRhObCWvk6IyKnWLug+ECip1KBveYUHfp+8e9klMJ9c=
 golang.org/x/sys v0.0.0-20210615035016-665e8c7367d1/go.mod h1:oPkhp1MJrh7nUepCBck5+mAzfO9JrbApNNgaTdGDITg=
