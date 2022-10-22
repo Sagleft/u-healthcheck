@@ -4,7 +4,7 @@ go 1.18
 
 require (
 	github.com/Sagleft/swiss-knife v1.1.0
-	github.com/Sagleft/utopialib-go v1.9.1
+	github.com/Sagleft/utopialib-go v1.9.2
 )
 
 require (
